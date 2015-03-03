@@ -1,0 +1,35 @@
+.just-text{
+    display: block;
+    width: 100%;
+}
+
+.change-text{
+    display: none;
+    margin:0 auto;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    min-height: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #444;
+    padding: 5px;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.hiddendiv {
+    display: none;
+    white-space: pre-wrap;
+    width: 673px;
+    min-height: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+    padding: 5px;
+    word-wrap: break-word;
+}

@@ -1,0 +1,27 @@
+/*Div для галлереи*/
+.images-list{
+    width:100%;
+    align:center;
+}
+.in {
+    padding: 5px 5px 5px 5px;
+}
+/* Отображение миниатюр */
+.in img {
+    width:300px;
+    border: 5px solid #ccc;
+}
+/* Выделение миниатюры при наведении */
+.in img:hover {
+    width:300px;
+    cursor: pointer;
+}
+/* Скрытый контейнер с большим изображением */
+#img_container {
+    position: fixed;
+    display: none;
+    left: 50%;
+    margin-left: -350px;
+    z-index: 999;
+    top: 10%;
+}
